@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head lang="ptbr">
+      <style>
+          button:hover{
+              background-color: darkorange;
+              cursor: pointer;
+              
+          }
+          button{
+              background-color: gold;
+              color: black;
+              font-family: arial;
+              padding: 10px 10px;
+              border-radius: 5px ;
+            font-size: 15px; }
+
+           h3{ font-size: 100px;
+        background-color:  darkred;
+    display: inline-block; }
+
+           h2{font-family: sans-serif;
+    background-color: yellow;
+    display: inline-block;} 
+
+           h1{font-family: arial;
+    background-color: yellowgreen;
+    display: inline-block;}
+      </style>
+    </head>
+    <body>
+        <P>Click nos numeros</P>
+
+        <button onclick="função()"> &#60
+            </button>
+            <button onclick="função01()"> 1
+            </button>
+            <button onclick="função02()"> 2
+            </button>
+            <button onclick="função03()"> 3
+            </button>
+            <button onclick="função04()"> &#62
+            </button>
+            <br><br>
+           <h1> <a id="mensagem"></a></h1><br>
+           <h2><a id="mensagem02"></a></h2><br>
+           <h3><a id="mensagem03"></a></h3><br>
+            <script>
+                function função01() {
+                  document.getElementById("mensagem").innerHTML = "Jesus te ama";
+                } function função02() {
+                  document.getElementById("mensagem02").innerHTML = "Ele morreu por você";}
+                  function função03() {
+                  document.getElementById("mensagem03").innerHTML = " &#128151 ";}
+                </script>
+        
+        
+    </body>
+</html>
